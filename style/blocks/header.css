@@ -1,0 +1,8 @@
+.header-top {
+    background: rgba(0, 0, 0, 0.14);
+}
+.header__top-content {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
