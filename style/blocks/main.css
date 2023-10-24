@@ -1,0 +1,14 @@
+.objects__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.objects__item {
+    max-width: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.object__item-description {
+    background-color: #fff;
+    min-height: 200px;
+}
