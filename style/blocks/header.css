@@ -1,8 +1,39 @@
 .header-top {
     background: rgba(0, 0, 0, 0.14);
 }
+
 .header__top-content {
     display: flex;
     justify-content: space-between;
     height: 40px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.header__top-ul {
+    display: flex;
+}
+
+.header__main {
+    position: fixed;
+    background: transparent;
+    width: 100%;
+}
+
+.header__main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__main-menu {
+    display: flex;
+}
+
+.banner__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
