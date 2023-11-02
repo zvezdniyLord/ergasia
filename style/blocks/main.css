@@ -8,11 +8,18 @@
 .objects__items {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .objects__item {
     max-width: 350px;
+    min-width: 250px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.objects__image {
+    max-width: 350px;
+    min-width: 250px;
 }
 
 .object__title {
@@ -25,6 +32,7 @@
 .objects__selectors {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .objects__selector {
@@ -60,4 +68,58 @@
 
 .object__item-adress {
     margin-top: 15px;
+}
+
+.news {
+    margin-top: 150px;
+}
+
+.news__title {
+    color: var(--grey-news);
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.news__subtitle {
+    font-size: 17px;
+    color: var(--grey);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.news__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.news__item {
+    max-width: 350px;
+    min-width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.news__item-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #37404D;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 95%;
+}
+
+.news__item-description {
+    background-color: #fff;
+    min-height: 200px;
+}
+
+.news__item-text {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.active {
+    color: var(--red);
 }

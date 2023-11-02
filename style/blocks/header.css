@@ -1,5 +1,6 @@
 .header-top {
     background: rgba(0, 0, 0, 0.14);
+    display: none;
 }
 
 .header__top-content {
@@ -16,18 +17,62 @@
 
 .header__main {
     position: fixed;
-    background: transparent;
+    background: #5b1524;
+    height: 92px;
     width: 100%;
+    color: #f6f6f6;
+    font-size: 16px;
 }
 
 .header__main-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 92px;
+}
+
+.header__logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
 }
 
 .header__main-menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-li {
+    margin-left: 60px;
+}
+
+.header__menu-li > a {
+    color: #fff;
+}
+
+.telephone-main {
+    width: 203px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5b1524;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.telephone-main:hover {
+    background-color: #af1616;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+
+.banner__text-block > a {
+    color: #fff;
 }
 
 .banner__block {
@@ -36,4 +81,19 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.banner__title {
+    font-size: 28px;
+    color: #fff;
+}
+
+.banner__text-block {
+    display: flex;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.1%;
+    
 }
