@@ -17,7 +17,7 @@
 
 .header__main {
     position: fixed;
-    background: #5b1524;
+    background: #00b956;
     height: 92px;
     width: 100%;
     color: #f6f6f6;
@@ -59,16 +59,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #5b1524;
-    margin-left: 30px;
+    color: #00b956;
+    margin-left: 90px;
     cursor: pointer;
     transition: all 0.3s ease-out;
+    font-weight: 500;
 }
 
-.telephone-main:hover {
-    background-color: #af1616;
-    color: #fff;
-    transition: all 0.3s ease-out;
+.tel-blink {
+    animation: blink 2.5s infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 .banner__text-block > a {
